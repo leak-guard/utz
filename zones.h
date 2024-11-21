@@ -1,12 +1,12 @@
 #ifndef _ZONES_H
 #define _ZONES_H
 
-const urule_packed_t zone_rules[50];
-const char zone_abrevs[209];
+extern const urule_packed_t zone_rules[50];
+extern const char zone_abrevs[209];
 
 #define MAX_ABREV_FORMATTER_LEN 7
 
-const uzone_packed_t zone_defns[46];
+extern const uzone_packed_t zone_defns[46];
 #define UTZ_ADELAIDE            &zone_defns[ 31]
 #define UTZ_AHMEDABAD           &zone_defns[ 24]
 #define UTZ_ANCHORAGE           &zone_defns[  4]
@@ -111,5 +111,5 @@ const uzone_packed_t zone_defns[46];
 #define NUM_ZONE_NAMES 100
 #define MAX_ZONE_NAME_LEN 17
 
-const unsigned char zone_names[961];
+extern const unsigned char zone_names[961];
 #endif /* _ZONES_H */
